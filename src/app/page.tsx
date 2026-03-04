@@ -23,9 +23,6 @@ export default function Home() {
         <p className="font-[family-name:var(--font-playfair)] text-3xl text-[#B76E79]">
           Karthik &amp; Subhiksha
         </p>
-        <p className="mt-3 text-xs tracking-[0.3em] uppercase text-[#6C4E54]/70">
-          29 April 2026 • Yashashvi Hall, Arkula
-        </p>
       </footer>
     </main>
   );

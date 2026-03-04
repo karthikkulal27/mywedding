@@ -1,9 +1,8 @@
 import { MotionReveal } from "@/components/MotionReveal";
 
 const events = [
-  { title: "Engagement", detail: "A beautiful beginning of forever." },
-  { title: "Muhurtham", detail: "Sacred vows on 29 April 2026." },
-  { title: "Reception", detail: "An evening of joy and celebration." },
+  { title: "Muhurtham", detail: "Sacred vows on 29 April 2026 in Arkula." },
+  { title: "Reception", detail: "3 May 2026 at Cordel Church Hall Kulshekar." },
 ];
 
 export default function EventsTimeline() {
