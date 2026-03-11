@@ -6,10 +6,12 @@ import Navbar from "@/components/Navbar";
 import OurStorySection from "@/components/OurStorySection";
 import VenueSection from "@/components/VenueSection";
 import VideoSection from "@/components/VideoSection";
+import SealedEnvelope from "@/components/SealedEnvelope";
 
 export default function Home() {
   return (
     <main className="overflow-x-hidden bg-[#F8F4EC] text-[#6C4E54]">
+      <SealedEnvelope />
       <Navbar />
       <HeroSection />
       <CountdownSection targetDate="2026-04-29T00:00:00+05:30" />
