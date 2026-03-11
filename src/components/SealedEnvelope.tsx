@@ -21,7 +21,7 @@ export default function SealedEnvelope() {
           key="video-envelope"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.15 }}
+          transition={{ duration: 0.40 }}
           className="fixed inset-0 z-50 bg-black flex flex-col items-center justify-center overflow-hidden"
         >
           {/* Video Player Container - Full Screen */}
@@ -38,11 +38,14 @@ export default function SealedEnvelope() {
               autoPlay
               muted
               playsInline
-              controls
               className="w-full h-full object-cover"
               onLoadedMetadata={(e) => {
-                e.currentTarget.playbackRate = 2;
+                e.currentTarget.playbackRate = 1.5;
               }}
+              onPause={(e) => {
+                e.currentTarget.play();
+              }}
+              style={{ cursor: "none" }}
             />
           </motion.div>
         </motion.div>
